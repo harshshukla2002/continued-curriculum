@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-brand">Brand</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a href="#">Services</a>
+          <div class="dropdown-content">
+            <a href="#">Web Development</a>
+            <a href="#">Mobile App Development</a>
+            <a href="#">UI/UX Design</a>
+          </div>
+        </li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <div class="mobile-nav">
+      <a href="#">Home</a>
+      <div class="mobile-dropdown">
+        <div class="dropdown-toggle">Services <span class="arrow">▼</span></div>
+        <div class="mobile-dropdown-content">
+          <a href="#">Web Development</a>
+          <a href="#">Mobile App Development</a>
+          <a href="#">UI/UX Design</a>
+        </div>
+      </div>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
