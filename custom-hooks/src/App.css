@@ -1,0 +1,31 @@
+.input-box {
+  border: 1px solid green;
+  outline: none;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 5px 10px;
+  width: 200px;
+}
+
+.input-box:focus {
+  border: 2px solid green;
+}
+
+.submit-button {
+  cursor: pointer;
+  background-color: green;
+  outline: none;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 20px;
+  color: white;
+}
+
+.card {
+  background-color: skyblue;
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  border-radius: 4px;
+}
